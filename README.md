@@ -23,7 +23,7 @@ This is a simple weather web application built using HTML, CSS, and JavaScript. 
 2. Navigate into the project directory.
 3. Open `index.html` in your web browser.
 
-Alternatively, you can view the live demo [here](#) (insert link to your live demo if available).
+Alternatively, you can view the live demo [here](https://kumardeepak16.github.io/Weather-App/).
 
 ## How It Works
 
