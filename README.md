@@ -2,7 +2,8 @@
 
 This is a simple weather web application built using HTML, CSS, and JavaScript. It allows users to check the current weather conditions (temperature, humidity, and wind speed) for any city they enter.
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](https://github.com/KumarDeepak16/Weather-App/assets/115630586/fc38cdc6-a8e8-449b-83a2-b5cb952fa8c7)
+
 
 ## Features
 
