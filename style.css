@@ -11,12 +11,12 @@ body{
 }
 
 .card{
-    width: 90%;
+    width: 95%;
     max-width: 420px;
     margin: 100px auto 0;
     background:rgba(53, 83, 93, 0.077);
     color: #fff;
-    padding: 40px 35px;
+    padding: 20px 15px;
     border: 1px white solid;
     border-radius: 35px;
   backdrop-filter: blur(5px);
@@ -41,19 +41,20 @@ body{
 .search{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
     justify-content: space-between;
 }
 .search input{
     border: 1px white solid;
-    outline: 0;
-    background-color: rgba(250, 255, 253, 0.184);
+    background-color: rgba(216, 132, 255, 0.137);
     color: #ffffff;
     backdrop-filter: blur(5px);
-    padding: 10px 25px;
+    padding: 10px 15px;
     height: 45px;
+    flex:1;
     border-radius: 30px;
-    flex: 1;
     font-weight: 600;
     margin-right:16px ;
 }
@@ -64,13 +65,11 @@ input::placeholder{
     font-size: 15px;
 }
 button{
-    border: 0;
-    outline: 0;
     color: #ffffff;
     height: 45px;
     width: 46px;
     background-color: transparent;
-    border-radius:50%;
+    border-radius:50px;
     border: 1px white solid;
     font-size: 18px;
     cursor: pointer;
@@ -89,6 +88,7 @@ button{
 .weather-details{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px ;
