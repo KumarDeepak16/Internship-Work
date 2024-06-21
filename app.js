@@ -1,3 +1,4 @@
+
 const apiKey="f71e569da5f86412bc940b4c479ef126";
 const apiURL ="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const search=document.querySelector('.search input');
@@ -16,7 +17,7 @@ async function checkWeather(city) {
     document.querySelector('.city').innerHTML = data.name;
     document.querySelector('.temp').innerHTML =Math.round(data.main.temp) + "°C";
     document.querySelector('.humidity').innerHTML =data.main.humidity + "%";
-    document.querySelector('.wind').innerHTML = data.wind.speed + "km/h";
+    document.querySelector('.wind').innerHTML = data.wind.speed + "m/s";
     if (data.weather[0].main === "Clouds") {
         image.src="images/clouds.png";
 }
